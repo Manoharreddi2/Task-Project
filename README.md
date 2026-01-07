@@ -70,3 +70,39 @@ com.manohar.taskproject
 │
 └── TaskprojectApplication.java
 ```
+
+
+
+
+
+
+## 🔗 API Endpoints
+
+### 🔐 Authentication
+
+| Method | Endpoint | Description |
+|------|---------|-------------|
+| POST | `/api/auth/register` | Register a new user |
+| POST | `/api/auth/login` | Login & get JWT token |
+
+### 📋 Tasks (JWT Protected)
+
+| Method | Endpoint | Description |
+|------|---------|-------------|
+| POST | `/api/{userId}/tasks` | Create a task |
+| GET | `/api/{userId}/tasks` | Get all tasks |
+| GET | `/api/{userId}/tasks/{taskId}` | Get task by ID |
+| DELETE | `/api/{userId}/tasks/{taskId}` | Delete task |
+
+
+
+
+
+## 🔐 JWT Authentication Flow
+
+1. User registers using `/api/auth/register`
+2. User logs in via `/api/auth/login`
+3. Server returns a JWT token
+4. Client sends token in request header:
+   
+
