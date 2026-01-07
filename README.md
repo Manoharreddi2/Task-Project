@@ -25,6 +25,53 @@ Implements **JWT-based authentication** and **user-specific task management**.
 
 ---
 
+
+## 📂 Project Structure
+
+
+com.manohar.taskproject
+│
+├── controller
+│ ├── AuthController
+│ └── TaskController
+│
+├── entity
+│ ├── Users
+│ └── Task
+│
+├── repository
+│ ├── UserRepository
+│ └── TaskRepository
+│
+├── service
+│ ├── TaskService
+│ └── UserService
+│
+├── serviceimpl
+│ ├── TaskServiceImpl
+│ └── UserServiceImpl
+│
+├── security
+│ ├── JwtTokenProvider
+│ ├── JwtAuthenticationFilter
+│ └── CustomUserDetailsService
+│
+├── securityconfig
+│ └── SecurityConfig
+│
+├── payload
+│ ├── LoginDto
+│ ├── UserDto
+│ ├── TaskDto
+│ └── JWTAuthResponse
+│
+├── exception
+│ ├── APIException
+│ ├── UserNotFound
+│ └── TaskNotFound
+│
+└── TaskprojectApplication
+
 ## API Flow
 1. Register user  
 2. Login to generate JWT token  
