@@ -18,13 +18,14 @@ Implements **JWT-based authentication** and **user-specific task management**.
 
 ---
 
-## Tech Stack
-- Java 21  
-- Spring Boot  
-- Spring Security + JWT  
-- Spring Data JPA / Hibernate  
-- MySQL  
-- Maven  
+## 🛠️ Tech Stack
+- ☕ Java 21  
+- 🌱 Spring Boot  
+- 🔐 Spring Security + JWT  
+- 🗃️ Spring Data JPA / Hibernate  
+- 🐬 MySQL  
+- 📦 Maven  
+
 
 ---
 
