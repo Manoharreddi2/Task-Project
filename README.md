@@ -26,59 +26,51 @@ Implements **JWT-based authentication** and **user-specific task management**.
 ---
 
 
-## 📂 Project Structure
 
+## 📂 Project Structure
 
 com.manohar.taskproject
 │
 ├── controller
-│ ├── AuthController
-│ └── TaskController
+│   ├── AuthController.java
+│   └── TaskController.java
 │
 ├── entity
-│ ├── Users
-│ └── Task
+│   ├── Users.java
+│   └── Task.java
 │
 ├── repository
-│ ├── UserRepository
-│ └── TaskRepository
+│   ├── UserRepository.java
+│   └── TaskRepository.java
 │
 ├── service
-│ ├── TaskService
-│ └── UserService
+│   ├── UserService.java
+│   └── TaskService.java
 │
 ├── serviceimpl
-│ ├── TaskServiceImpl
-│ └── UserServiceImpl
+│   ├── UserServiceImpl.java
+│   └── TaskServiceImpl.java
 │
 ├── security
-│ ├── JwtTokenProvider
-│ ├── JwtAuthenticationFilter
-│ └── CustomUserDetailsService
+│   ├── JwtTokenProvider.java
+│   ├── JwtAuthenticationFilter.java
+│   └── CustomUserDetailsService.java
 │
 ├── securityconfig
-│ └── SecurityConfig
+│   └── SecurityConfig.java
 │
 ├── payload
-│ ├── LoginDto
-│ ├── UserDto
-│ ├── TaskDto
-│ └── JWTAuthResponse
+│   ├── LoginDto.java
+│   ├── UserDto.java
+│   ├── TaskDto.java
+│   └── JWTAuthResponse.java
 │
 ├── exception
-│ ├── APIException
-│ ├── UserNotFound
-│ └── TaskNotFound
+│   ├── APIException.java
+│   ├── UserNotFound.java
+│   └── TaskNotFound.java
 │
-└── TaskprojectApplication
+└── TaskprojectApplication.java
 
-## API Flow
-1. Register user  
-2. Login to generate JWT token  
-3. Use token to access protected APIs  
 
----
 
-## API Endpoints
-
-### Register
