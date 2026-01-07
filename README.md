@@ -5,13 +5,16 @@ Implements **JWT-based authentication** and **user-specific task management**.
 
 ---
 
-## Features
-- User Registration & Login
-- JWT Authentication (Stateless)
-- Secure APIs with Spring Security
-- Create, View & Delete Tasks
-- Password encryption using BCrypt
-- MySQL database integration
+## ✨ Features
+- 👤 User Registration & Login  
+- 🔐 JWT Authentication (Stateless)  
+- 🛡️ Secure APIs with Spring Security  
+- 📝 Create, View & Delete Tasks  
+- 🔑 Password Encryption using BCrypt  
+- 🗄️ MySQL Database Integration  
+- ⚙️ RESTful API Design  
+- 🚀 Fast & Scalable Backend Architecture  
+
 
 ---
 
