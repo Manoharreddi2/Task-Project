@@ -26,11 +26,9 @@ Implements **JWT-based authentication** and **user-specific task management**.
 ---
 
 
-
 ## 📂 Project Structure
 
 com.manohar.taskproject
-│
 ├── controller
 │   ├── AuthController.java
 │   └── TaskController.java
@@ -71,6 +69,3 @@ com.manohar.taskproject
 │   └── TaskNotFound.java
 │
 └── TaskprojectApplication.java
-
-
-
